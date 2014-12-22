@@ -1,0 +1,96 @@
+#menu-apuestas .list-wrap { 
+    background: #F0F4F4; 
+    -ms-box-shadow: 0px -1px 14px #483949; 
+    -o-box-shadow: 0px -1px 14px #483949; 
+    -moz-box-shadow: 0px -1px 14px #483949; 
+    -webkit-box-shadow: 0px -1px 14px #483949; 
+    box-shadow: 0px -1px 14px #483949; 
+    border-radius: 10px;
+    padding:.5em;
+    margin: 0 0 15px 0;
+    width:100%;
+    height: auto;
+}
+
+#menu-apuestas ul { 
+    list-style: none; 
+}
+#menu-apuestas ul li a { 
+    display: block; 
+    border-bottom: 1px solid #666;
+    border-radius: 10px 10px 0 0; 
+    padding: 4px; 
+    color: #666; 
+}
+#menu-apuestas ul li a:hover { 
+    background: #333; 
+    color: white; 
+}
+#menu-apuestas ul li:last-child a { 
+    border: none; 
+}
+
+#menu-apuestas .nav { 
+    overflow: hidden; 
+    margin: 0.5em 0 0 1.5em; 
+}
+#menu-apuestas .nav li { 
+    width: 12%; 
+    float: left; 
+    margin: 0 10px 0 0;
+
+}
+
+#menu-apuestas .nav li.last { 
+    margin-right: 0; 
+}
+#menu-apuestas .nav li a { 
+    display: block; 
+    padding: 5px; 
+    padding-top: 10px;
+    background: #483949; 
+    color: white; 
+    font-size: 1em; 
+    font-weight: bold; 
+    text-align: center; 
+    border: 0;
+    text-decoration: none;
+    -ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+#menu-apuestas li a.current,#menu-apuestas li a.current:hover { 
+    background-color: #F0F4F4 !important;
+    -o-box-shadow:inset 0px 9px 10px #483949; 
+    -ms-box-shadow:inset 0px 9px 10px #483949; 
+    -moz-box-shadow:inset 0px 9px 10px #483949; 
+    -webkit-box-shadow:inset 0px 9px 10px #483949; 
+    box-shadow:inset 0px 9px 10px #483949; 
+    color:#df7366; 
+}
+#menu-apuestas .nav li a:hover { 
+    background: #F0F4F4; 
+    color: #483949;
+    -moz-box-shadow:inset 0px 9px 10px #483949;
+    -webkit-box-shadow:inset 0px 9px 10px #483949;
+    box-shadow:inset 0px 9px 10px #483949;
+    -ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+#menu-apuestas .nav li a:focus { 
+    color: #df7366;
+}
+
+.oculto { 
+    position: absolute; 
+    top: -9999px; 
+    left: -9999px;
+}
+

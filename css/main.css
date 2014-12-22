@@ -1,0 +1,849 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+
+/** {
+	outline: solid red;
+}*/
+
+.oculto {
+	display: none;
+}
+
+.browsehappy {
+	position: fixed;
+	margin: 0 auto;
+	top: 50%;
+
+}
+
+.browsehappy a {
+	position: relative;
+	left: 20%;
+}
+
+#contenido {
+	width: 97%;
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+}
+
+.contenidoDeportes {
+	width:98%;
+	display:block;
+	height:auto;
+	margin: 1em auto 0;
+	text-align: center;
+	padding: .5em .3em 0;
+}
+.navDeportes, .navSaldo{
+	display: inline-block;
+	margin: 0;
+	max-width: 100%;
+	padding: .5em;
+	width:60%;
+	vertical-align: top;
+}
+.navDeportes{
+	background:#fff;
+	border-radius: 1em;
+	height:auto;
+	padding: .6em .5em;
+	border:solid 2px #265a88;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.navDeportes:hover{
+	border: solid 2px #2aabd2;
+	-ms-box-shadow: -1px 0px 13px #265a88;
+	-o-box-shadow: -1px 0px 13px #265a88;
+	-moz-box-shadow: -1px 0px 13px #265a88;
+	-webkit-box-shadow: -1px 0px 13px #265a88;
+	box-shadow: -1px 0px 13px #265a88;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.seleccioneDeporte{
+	width:22%;
+	height: auto;
+	float: left;
+	position: relative;
+	border-radius: 1em;
+	font-weight: bold;
+	top:-25px;
+	left: 25px;
+	font-size: 1em;
+	padding: .3em;
+	border:solid 2px #265a88;
+	background:#265a88;
+	color:#fff;
+	width:25%;
+	font-weight: bold;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+/*.seleccioneDeporte:hover{
+	background:#2aabd2;
+	border:solid 2px #2aabd2;
+	color:#fff;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}*/
+.navDeportes .contenidoButton{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 2em auto 0;
+	padding: .2em;
+}
+.contenidoButton .button{
+	font-weight: bold;
+	font-size: .8em;
+	text-align: center;
+	background:#fff;
+	padding: .5em;
+	width:15%;
+	cursor: pointer;
+	margin: 0 .5em .5em;
+	display: inline-block;
+	vertical-align: middle;
+	height:14px;
+	color: #265a88;
+	border:solid 1px #2aabd2; 
+	border-radius: .5em;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.contenidoButton .button:hover{
+	color: #fff;
+	background: #2aabd2;
+	border: solid 1px #2aabd2;
+	-o-box-shadow: -1px 1px 12px  #010308;
+	-ms-box-shadow: -1px 1px 12px  #010308;
+	-moz-box-shadow: -1px 1px 12px  #010308;
+	-webkit-box-shadow: -1px 1px 12px  #010308;
+	box-shadow: -1px 1px 12px  #010308;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.navSaldo {
+	width:32%;
+	text-align: center;
+}
+.saldo,.agregarSaldo, .retirarSaldo{
+	background: #483949;
+	border-radius: .5em;
+	display: inline-block;
+	margin: 0 .5em;
+	max-width: 100%;
+	padding: 0.5em;
+	width:22%;
+	vertical-align:middle;
+	color: red;
+	text-align: center;
+}
+
+.saldo{
+	color: #fff;
+	font-weight: bold;
+	-ms-box-shadow: 0px 0px 14px #403c40;
+	-o-box-shadow: 0px 0px 14px #403c40;
+	-moz-box-shadow: 0px 0px 14px #403c40;
+	-webkit-box-shadow: 0px 0px 14px #403c40;
+	box-shadow: 0px 0px 14px #403c40;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.agregarSaldo, .retirarSaldo{
+	cursor: pointer;
+	background: #df7366;
+	-ms-box-shadow: 0px 0px 14px #403c40;
+	-o-box-shadow: 0px 0px 14px #403c40;
+	-moz-box-shadow: 0px 0px 14px #403c40;
+	-webkit-box-shadow: 0px 0px 14px #403c40;
+	box-shadow: 0px 0px 14px #403c40;
+	color: #483949;
+	width:25%;
+	font-weight: bold;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.agregarSaldo:hover, .retirarSaldo:hover{
+	background: #ef8376;
+	-o-box-shadow: 0px 0px 21px #df7366;
+	-ms-box-shadow: 0px 0px 21px #df7366;
+	-moz-box-shadow: 0px 0px 21px #df7366;
+	-webkit-box-shadow: 0px 0px 21px #df7366;
+	box-shadow: 0px 0px 21px #df7366;
+	color:#fff;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.contenidoApuestas{
+	width: 100%;
+	height:auto;
+	margin: 1em auto 1em;
+	display: block;
+	padding:.3em;
+	text-align: center;
+
+}
+
+.apuestas, .infoApuestas{
+	background:#fff;
+	border-radius: 1em;
+	display: inline-block;
+	margin: 0 .5em 0 0;
+	max-width: 100%;
+	padding: .5em;
+	width:75%;
+	height: auto;
+	vertical-align: top;
+}
+
+.apuestas{
+	border:solid 2px #403c40;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+
+}
+
+.apuestas:hover{
+	border: solid 2px #df7366;
+	-ms-box-shadow: -1px 0px 13px #254070;
+	-o-box-shadow: -1px 0px 13px #254070;
+	-moz-box-shadow: -1px 0px 13px #254070;
+	-webkit-box-shadow: -1px 0px 13px #254070;
+	box-shadow: -1px 0px 13px #254070;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.infoApuestas {
+	background:#fff;
+	cursor: pointer;
+	width:15%;
+	margin: 0 0 .8em .6em;
+	border:solid 2px #403c40;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.infoApuestas:hover{
+	border: solid 2px #df7366;
+	-ms-box-shadow: -1px 0px 13px #254070;
+	-o-box-shadow: -1px 0px 13px #254070;
+	-moz-box-shadow: -1px 0px 13px #254070;
+	-webkit-box-shadow: -1px 0px 13px #254070;
+	box-shadow: -1px 0px 13px #254070;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.miTicket{
+	width: 90%;
+	height:15px;
+	font-weight: bold;
+	font-size: .9em;
+	margin: 0 auto;
+	padding: 0.3em .5em 0.2em;
+	text-align: center;
+	color: #403c40;
+	display: block;
+	background: orange;
+	border-radius: 1em;
+	border:solid 1px #EC971F;
+	vertical-align: center;
+}
+
+.contenidoTicket{
+	width: 96%;
+	height:auto;
+	display: block;
+	margin: 0 auto;
+	padding:.5em;
+	text-align: center;
+}
+
+.ticketVacio{
+	width: 94%;
+	height: 20px;
+	font-weight: bold;
+	font-size: .8em;
+	text-align: left;
+	margin: 0 auto;
+	display: block;
+	border-radius: 1em;
+	padding: .5em;
+	color: #c12e2a;
+	font-weight: bold;
+}
+.ticketVacio{
+	width: 90%;
+	height: 40px;
+	padding-top: 1.5em;
+}
+.setearTicket{
+	width: 90%;
+	height: auto;
+	font-size: .8em;
+	text-align:right;
+	margin: 0 auto;
+	display: block;
+	padding: .5em;
+}
+.setear{
+	width: 50%;
+	height: auto;
+	font-size: 1em;
+	text-align:center;
+	margin: 0;
+	display: block;
+	background:rgba(1, 19, 32, 0.1);
+	padding: .5em;
+	border-radius: .5em;
+	color: green;
+	border:solid 1px green;
+	font-weight: bold;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.setear:hover{
+	color:#D9534F;
+	border:solid 1px #D9534F;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.contenidoCalculadora{
+	width: 96%;
+	height: auto;
+	text-align: center;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.contenidoCalculadora .calculadora{
+	width:95%;
+	height: auto;
+	text-align: center;
+	display: block;
+	border-radius: .5em;
+	border: solid 1px orange;
+	margin: .5em auto 0;
+	padding: 0 0 .5em;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.contenidoCalculadora .calculadora:hover{
+	border:solid 1px #483949;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.calculadora label{
+	width:95%;
+	height: auto;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding: .3em;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: .9em;
+	color:  #483949;
+}
+.calculadora .apostar{
+	width:40%;
+	height: auto;
+	background: #df7366;
+	text-align:center;
+	display: block;
+	margin: .7em auto 0;
+	padding: .3em;
+	font-weight: bold;
+	font-size: .9em;
+	color:  #483949;
+	border-radius: .5em 0;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.calculadora .apostar:hover{
+	color:  #fff;
+	border-radius: 0 .5em;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.calculadora input{
+	width:60%;
+	height: auto;
+	background:rgba(1, 19, 32, 0.1);
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+	padding: .3em;
+	font-weight: bold;
+	font-size: .75em;
+	color:  #483949;
+	border-radius: .5em;
+	border: solid 2px #483949;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.calculadora input:hover{
+	background: rgba(215, 160, 28, 0.6);
+	border:solid 2px rgba(104, 29, 74, 0.6);
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.calculadora input:focus{
+	background: rgba(215, 160, 100, 0.6);
+	border: solid 2px orange;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.apuestaSeleccionada{
+	width: 86%;
+	height:35px;
+	display: block;
+	margin: 0 auto;
+	padding:.5em;
+	font-size: .8em;
+	text-align: center;
+	color:  #483949;
+	background: red;
+}
+.tablaApuestas{
+
+	width: 100%;
+
+	font-size: .8em;
+
+	font-weight: bold;
+
+	line-height: 1.75em;
+
+}
+
+.tablaApuestas .title{
+
+	background:#fff;
+
+	font-size: 1.5em;
+
+	font-weight: bold;
+
+	color: #df7366;
+
+	padding: 8px 0;
+
+}
+
+.tablaApuestas tr th{
+
+	background:#CFCAD3;
+
+	font-size: 1.1em;
+
+	font-weight: bold;
+
+	color:#265a88;
+
+	padding:.4em .4em;
+
+}
+
+.tablaApuestas tr td{
+
+	color: #483949;
+
+	cursor: pointer;
+
+	font-size: 1em;
+
+	text-align: center;
+
+	min-width: 10px;
+
+	transition: all 400ms ease-in;
+
+	-webkit-transition: all 400ms ease-in;
+
+	-moz-transition: all 400ms ease-in;
+
+	-o-transition: all 400ms ease-in;
+
+	-ms-transition: all 400ms ease-in;
+
+	padding: 5px 5px;
+
+	word-wrap: break-word;
+
+	border: solid 0px #fff;
+
+	border-bottom: solid 1px #fff;
+
+	border-top: solid 1px #f1f1f1;
+
+	border-right: solid 1px #f1f1f1;
+
+}
+
+.tablaApuestas tr:hover td:nth-child(odd),.tablaApuestas tr:hover td:nth-child(even){
+	
+	background: #483949;
+
+	-o-box-shadow: 0px -1px 34px #483949;
+
+	-ms-box-shadow: 0px -1px 34px #483949;
+
+	-moz-box-shadow: 0px -1px 34px #483949;
+
+	-webkit-box-shadow: 0px -1px 34px #483949;
+
+	box-shadow: 0px -1px 34px #483949;
+
+	color:#df7366;
+
+}
+
+.tablaApuestas tr:nth-child(odd) {
+
+	background:#D2DFDF;
+
+}
+
+.tablaApuestas tr:nth-child(even) {
+
+	background: #fff;
+
+}
+
+/****************************************** FRONT-END ADMIN *****************************************/
+
+.apuestasXml{
+	background:#fff;
+	border-radius: 1em;
+	display: inline-block;
+	margin: 0 .5em 0 0;
+	max-width: 100%;
+	padding: .5em;
+	width:94%;
+	height: auto;
+	vertical-align: top;
+}
+.contenidoXml{
+	width:95%;
+	background: #fff;
+	height:auto;
+	margin: 1.4em auto .5em;
+	padding: 0;
+	text-align: center;
+	display: block;
+	border-radius: .5em;
+	border:solid 2px #403c40;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.contenidoXml:hover{
+	border: solid 2px #df7366;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.scroll{
+	width:98%;
+	height:550px;
+	margin:.5em auto;
+	padding: 0;
+	text-align: center;
+	display: block;
+	overflow: auto;
+}
+
+.infoXml{
+	width:96%;
+	display: block;
+	height:auto;
+	margin: 1em auto;
+	padding: 0;
+}
+.cabeceraTabla{
+	background: #2aabd2;
+	height: auto;
+	width: 99%;
+	display: block;
+	border-radius: .5em;
+	color: orange;
+	font-size: 1em;
+	font-weight: bold;
+	padding: .5em;
+
+}
+
+.valoresCampos, .masApuestas, .eliminarApuesta{
+	height: auto;
+	max-width:100%;
+	display:inline-block;
+	border-radius: .5em;
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+	width:84%;
+	padding: .5em;
+	vertical-align: top;
+}
+.tabla{
+	width: 100%;
+	height:auto;
+	overflow: auto;
+}
+.tabla .tituloColumna{
+	width:100px;
+	height:18px;
+	display: block;
+	margin: .3em auto;
+	font-size: .8em;
+}
+.eliminarApuesta{
+	background:#D9534F;
+	width:3%;
+	text-align: center;
+	height:20px;
+	cursor: pointer;
+	vertical-align: middle;
+	margin:0;
+	padding:.3em 0;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.eliminarApuesta:hover{
+	color:#000;
+	-ms-box-shadow: -1px 0px 13px #254070;
+	-o-box-shadow: -1px 0px 13px #254070;
+	-moz-box-shadow: -1px 0px 13px #254070;
+	-webkit-box-shadow: -1px 0px 13px #254070;
+	box-shadow: -1px 0px 13px #254070;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.masApuestas{
+	background:orange;
+	width:8%;
+	text-align: center;
+	height: 20px;
+	cursor: pointer;
+	vertical-align: middle;
+	margin: 1em 0 .5em;
+	padding: .5em;
+	-ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.masApuestas:hover{
+	color:#000;
+	-ms-box-shadow: -1px 0px 13px #254070;
+	-o-box-shadow: -1px 0px 13px #254070;
+	-moz-box-shadow: -1px 0px 13px #254070;
+	-webkit-box-shadow: -1px 0px 13px #254070;
+	box-shadow: -1px 0px 13px #254070;
+	-ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.formXml input{
+	border-radius: .5em;
+	padding: .3em;
+}
+.formXml .inputXml{
+	margin: .2em;
+	padding: .2em;
+}
+.tablaXml{
+
+	width: 100%;
+
+	font-size: .8em;
+
+	font-weight: bold;
+
+	line-height: 1.75em;
+
+}
+
+.tablaXml .title{
+
+	background:#fff;
+
+	font-size: 1.5em;
+
+	font-weight: bold;
+
+	color: #df7366;
+
+	padding: 8px 0;
+
+}
+
+.tablaXml tr th{
+
+	background:#CFCAD3;
+
+	font-size: 1.1em;
+
+	font-weight: bold;
+
+	color:#265a88;
+
+	padding:.4em .4em;
+
+}
+
+.tablaXml tr td{
+
+	color: #483949;
+
+	cursor: pointer;
+
+	font-size: 1em;
+
+	text-align: center;
+
+	min-width: 10px;
+
+	transition: all 400ms ease-in;
+
+	-webkit-transition: all 400ms ease-in;
+
+	-moz-transition: all 400ms ease-in;
+
+	-o-transition: all 400ms ease-in;
+
+	-ms-transition: all 400ms ease-in;
+
+	padding: 5px 5px;
+
+	word-wrap: break-word;
+
+	border: solid 0px #fff;
+
+	border-bottom: solid 1px #fff;
+
+	border-top: solid 1px #f1f1f1;
+
+	border-right: solid 1px #f1f1f1;
+
+}
+
+/*.tablaXml tr:hover td:nth-child(odd),.tablaXml tr:hover td:nth-child(even){
+	
+	background: #483949;
+
+	-o-box-shadow: 0px -1px 34px #483949;
+
+	-ms-box-shadow: 0px -1px 34px #483949;
+
+	-moz-box-shadow: 0px -1px 34px #483949;
+
+	-webkit-box-shadow: 0px -1px 34px #483949;
+
+	box-shadow: 0px -1px 34px #483949;
+
+	color:#df7366;
+
+}*/
+
+.tablaXml tr:nth-child(odd) {
+
+	background:#D2DFDF;
+
+}
+
+.tablaXml tr:nth-child(even) {
+
+	background: #fff;
+
+}

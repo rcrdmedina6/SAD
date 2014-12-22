@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html
+lang="es-ES"> 
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="author" href="humans.txt" />
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/menu-apuestas.css" />
+    <link rel="stylesheet" href="css/main.css">
+    
+  </head>
+  <body>
+  <!--[if lt IE 7]>
+    <div class="browsehappy">
+      <p>
+        <strong>Actualiza</strong> tu navegador de internet para poder visualizar este website  
+        <a href="http://browsehappy.com/">Click aca para actualizar tu navegador</a> 
+      </p>
+    </div>
+  <![endif]-->
+
+    <!-- Pestanias apostar historial resultados-->
+
+    <div id="contenido">
+
+            <div id="menu-apuestas">
+
+                <ul class="nav">
+                    <li class="nav-one"><a href="#contenido1" class="current"><i class="fa fa-hand-o-down"></i>
+Apostar aqui</a></li>
+                    <li class="nav-two"><a href="#contenido2"><i class="fa fa-trophy"></i>
+
+Resultados</a></li>
+                    <li class="nav-three"><a href="#contenido3"><i class="fa fa-folder-open-o"></i>
+
+Historial</a></li>
+                </ul>
+
+                <div class="list-wrap">
+
+                    <div id="contenido1">
+
+                        <section class='contenidoDeportes'>
+
+                            <nav class='navDeportes'>
+                                <div class="seleccioneDeporte"><i class="fa fa-thumbs-o-up"></i>Selecione un Deporte</div>
+                                
+                                <div class="contenidoButton">
+                                    <div class="button"><i class="fa fa-check-square"></i>Beisbol</div>
+                                    <div class="button"><i class="fa fa-check-square"></i>Basket</div>
+                                    <div class="button"><i class="fa fa-check-square"></i>Hockey</div>
+                                    <div class="button"><i class="fa fa-check-square"></i>Futbol Americano</div>
+                                </div>
+
+                            </nav>
+                        </section>
+
+                        <section class="contenidoXml">
+
+                          <article class="scroll">
+
+                            <article  class="apuestasXml">
+
+                              <div id="idInfoXml" class="infoXml">
+                                
+                                <form id="idFormXmldefault" name="" class="formXml">
+                               
+
+                                    
+                                  
+
+                                </form>
+                                    
+                              </div>
+                              
+                            </article>
+
+                          </article>
+                        </section>
+
+                        </br>
+                
+                    </div>
+
+                    <div id="contenido2" class="oculto"> 
+                      Contenido dos
+                    </div>
+
+                    <div id="contenido3" class="oculto"> 
+                    Este es el contenido tres
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+
+    <div id="idContenedorTabla" class="oculto">
+      <div>
+
+                                      <div id="idCabeceraTabla" class="cabeceraTabla">
+
+                                       <div class="eliminarApuesta"><i class="fa fa-times"></i></div>
+
+                                        <div class="valoresCampos">
+
+                                          <table align="center" width="100%">
+                                           
+                                           <TR align='center'>
+
+                                                      <th>
+                                                        Juego
+                                                      </th>
+                                                      <th>
+                                                        Inicio Juego
+                                                      </th>
+                                                      <th>
+                                                        Fin apuestas
+                                                      </th>
+                                                      <th>
+                                                        liveBet
+                                                      </th>
+                                                      <th>
+                                                        Isrunning
+                                                      </th>
+
+                                                  </TR>
+
+                                              <TR align='center'>
+
+                                                      <td>
+                                                        <div id="idNameJuego" class="juego">
+                                                          
+                                                        </div>
+                                                      </td>
+                                                      <td>
+                                                        <input id="idInicioJuego" name="inicioJuego" value="">
+                                                      </td>
+                                                      <td>
+                                                        <input id="idFinApuesta" name="finApuesta" value="">
+                                                      </td>
+                                                      <td>
+                                                        <input id="idLiveBet" name="liveBet" value="">
+                                                      </td>
+                                                      <td>
+                                                        <input id="idIsRunning" name="isRunning" value="">
+                                                      </td>
+                                                  </TR>
+                                              </table>
+
+                                        </div>
+                                        
+                                        <div class="masApuestas"><i class="fa fa-plus"></i>Apuestas</div>
+                                      
+                                      </div>
+
+                                      <div class="tabla">
+
+                                        <TABLE id="idTablaXml" class="tablaXml" BORDER='0' CELLSPACING='1' ALIGN='CENTER' WIDTH='100%'>
+
+                                          <TR id="idCabecera" align='center'>
+
+                                              <th>
+                                                <div class="tituloColumna">Equipo</div>
+                                              </th>
+                                              <th>
+                                                    <div class="tituloColumna">Logro Ganar</div>
+                                              </th>
+                                              <th>
+                                                    <div class="tituloColumna"><i class="fa fa-times"></i>Logro Ganar</div>
+                                              </th>
+                                              
+                                             
+                                              <th>
+                                                    <div class="tituloColumna">A/B Juego</div>
+                                              </th>
+                                              <th>
+                                                    <div class="tituloColumna">Logro A/B Juego</div>
+                                              </th>
+                                              <th>
+                                                    <div class="tituloColumna"> <i class="fa fa-times"></i> A/B Juego</div>
+                                              </th>
+                                              <th>
+                                                    <div class="tituloColumna">A/B Partido</div>
+                                              </th>
+                                              <th>
+                                                    <div class="tituloColumna">Logro A/B Partido</div>
+                                              </th>
+                                              <th>
+                                                    <div class="tituloColumna"><i class="fa fa-times"></i> A/B Partido</div>
+                                              </th>
+                                               <th>
+                                                    <div class="tituloColumna">A/B Partido </div>
+                                              </th>
+                                              <th>
+                                                    <div class="tituloColumna">Logro A/B Partido 2</div>
+                                              </th>
+                                              <th>
+                                                    <div class="tituloColumna"><i class="fa fa-times"></i> A/B Partido 2</div>
+                                              </th>
+                                          </TR>
+
+                                          <TR id="idEquipo1" align='center'>
+                                              <td>
+                                                    <input id="idParticipante1" class="inputXml" name="">
+                                              </td>
+                                              <td>
+                                                    <input id="idLogroAganar1" class="inputXml" name="">
+                                              </td>
+                                              <td rowspan="2">
+                                                    <input type="checkbox">
+                                              </td>
+                                              
+                                              
+                                              <td>
+                                                    <input class="inputXml" name="">
+                                              </td>
+                                              <td>
+                                                    <input class="inputXml" name="">
+                                              </td>
+                                              <td rowspan="2">
+                                                    <input type="checkbox">
+                                              </td>
+                                              <td>
+                                                    <input name="">
+                                              </td>
+                                              <td>
+                                                    <input class="inputXml" name="">
+                                              </td>
+                                              <td rowspan="2">
+                                                    <input type="checkbox">
+                                              </td>
+                                              <td>
+                                                    <input class="inputXml" name="">
+                                              </td>
+                                              <td>
+                                                    <input class="inputXml" name="">
+                                              </td>
+                                              <td rowspan="2">
+                                                    <input type="checkbox">
+                                              </td>
+                                          </TR>
+
+                                          <TR id="idEquipo2" align='center'>
+                                              <td>
+                                                    <input id="idParticipante2" class="inputXml" name="">
+                                              </td>
+                                              <td>
+                                                    <input id="idLogroAganar2" class="inputXml" name="">
+                                              </td>
+                                              
+                                              <td>
+                                                    <input class="inputXml" name="">
+                                              </td>
+                                             
+                                              <td>
+                                                   <input class="inputXml" name="">
+                                              </td>
+                                              <td>
+                                                   <input class="inputXml" name="">
+                                              </td>
+                                              <td>
+                                                    <input class="inputXml" name="">
+                                              </td>
+                                              <td>
+                                                    <input class="inputXml" name="">
+                                              </td>
+                                             
+                                          </TR>
+
+                                          
+                                        </TABLE>
+
+                                      </div>
+      </div>
+    </div>
+    
+
+      <div id="idCabeceraRunline" class="oculto">
+        <!--Cabecera Runline-->
+        <th>
+          <div class="tituloColumna">Runline</div>
+        </th>
+        <th>
+          <div class="tituloColumna">Logro Runline</div>
+        </th>
+        <th>
+          <div class="tituloColumna"><i class="fa fa-times"></i> Runline</div>
+        </th>
+      </div>
+
+      <div id="idEquipo1Runline" class="oculto">
+        <!--equpo1 datos Runline-->
+        <td>
+          <input class="inputXml" name="">
+        </td>
+        <td>
+          <input class="inputXml" name="">
+        </td>
+        <td rowspan="2">
+          <input type="checkbox">
+        </td>
+      </div>
+
+      <div id="idEquipo2Runline" class="oculto">
+        <!--equpo1 datos Runline-->
+        <td>
+          <input class="inputXml" name="">
+        </td>
+        <td>
+          <input class="inputXml" name="">
+        </td>
+      </div>
+ 
+
+      <!-- <a href="../humans.txt">
+        <img src="http://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif" alt="Humans.txt" width="88" height="31">
+      </a> -->
+    
+
+  <script src="js/vendor/MooTools-Core-1.5.1.js"></script>
+  <script src="js/vendor/jquery-2.1.1.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/menu-apuestas.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <!--<script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>-->
+  </body>
+</html>
