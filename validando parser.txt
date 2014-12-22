@@ -1,0 +1,11 @@
+baseball3.xml
+
+handicad 3
+result 2
+under/overMacth 2
+under/overTeam 2 2
+
+handicad 2 * 14 + 1=29
+under/overTeam 2 * 14=28
+result 1 * 14 + 1=15
+under/overMacth 1 * 14 + 1=15
